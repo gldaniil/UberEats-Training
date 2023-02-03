@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    border-bottom: 1px solid #E0E0E0;
+    background-color: #FFFFFF;
+    position: sticky;
+    top: 0;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    max-width: 1124px;
+    margin: 0 auto;
+}
+.container {
+    box-sizing: border-box;
+    max-width: 956px;
+    margin: 0 auto;
+    padding: 0;
+}
+.header__block {
+    display: flex;
+    justify-content: space-between;
+    max-height: 72px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.nav {
+    min-height: 72px;
+    display: flex;
+    align-items: center;
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+}
+.nav__item:first-child {
+    margin-right: 16px;
+    padding: 7px 20px;
+    font-weight: 500;
+    font-size: 13px;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+}
+.nav__item:last-child {
+    padding: 0 7px;
+}
+.nav__link {
+    text-decoration: none;
+    line-height: 24px;
+    color: #1D1D1D;
+}
+.main {
+    padding-bottom: 80px;
+}
+.search__block {
+    padding: 32px 0 0 0;
+}
+.search__form {
+    border-bottom: 1px solid #757575;
+}
+.form__input {
+    border: none;
+    width: 100%;
+    outline: 0;
+    color: #626262;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.restaurants__moscow {
+    padding: 55px 0 0 0;
+    color: #1D1D1D;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+}
+.card {
+    margin: 20px 0 0 0;
+    overflow: hidden; 
+}
+.card img {
+    width: 100%;
+}
+
+.card p {
+    font-weight: 400;
+    margin: 4px 0;
+}
+
+.card p:first-of-type {
+    margin-top: 14px;
+    color: #1D1D1D;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card p:nth-child(3) {
+    color: #626262;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.card p:last-of-type {
+    color: #1D1D1D;
+    font-size: 13px;
+    line-height: 21px;
+    padding-bottom: 20px;
+}
+.footer {
+    width: 1200px;
+    height: 400px;
+    background-color: #262626;
+}
+.footer__logo {
+    padding: 55px 0 40px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.footer__info {
+    display: flex;
+}
+.footer__block {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__col {
+    flex-basis: 33.3333%;
+}
+.footer__items {
+    padding-left: 0;
+    list-style-type: none;
+}
+.footer__item {
+    padding: 23px 0 0 0;
+}
+.footer__link {
+    color: #FFFFFF;
+    text-decoration: none;
+}
