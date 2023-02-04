@@ -6,29 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/first-style.css">
     <title>UberEats</title>
 </head>
 
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="container">
-                <div class="header__block">
-                    <div class="logo">
-                        <a href="/"><img src="Restaurant/logo-2.svg" alt="UberEats"></a>
-                    </div>
-                    <nav class="nav">
-                        <ul class="nav__list">
-                            <li class="nav__item"><a href="/" class="nav__link">Войти</a></li>
-                            <li class="nav__item"><a href="/" class="nav__link"><img src="Restaurant/basket.svg"
-                                        alt="Basket"></a></li>
-                        </ul>
-                    </nav>
+    <header class="header">
+        <div class="container">
+            <div class="header__block">
+                <div class="logo">
+                    <a href="/"><img src="Restaurant/logo-2.svg" alt="UberEats"></a>
                 </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="/" class="nav__link">Войти</a></li>
+                        <li class="nav__item"><a href="/" class="nav__link"><img src="Restaurant/basket.svg"
+                                    alt="Basket"></a></li>
+                    </ul>
+                </nav>
             </div>
-        </header>
-        <main class="main">
+        </div>
+    </header>
+    <div class="wrapper">
+        <main id="main" class="main">
             <section class="search">
                 <div class="container">
                     <div class="search__block">
@@ -45,85 +46,81 @@
                         <span">Рестораны в Москве</span>
                     </div>
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-6">
                             <figure class="card">
-                                <a href=""><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27-5.png"
+                                <a href="pages/restaurant.html"><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27-5.png"
                                         alt="Макдоналдс"></a>
                                 <p>Макдоналдс - Газетный</p>
                                 <p>₽₽ · Бургеры</p>
                                 <p>25 - 35 мин</p>
                             </figure>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-6">
                             <figure class="card">
-                                <a href=""><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27-1.png"
+                                <a href="pages/restaurant.html"><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27-1.png"
                                         alt="DimSum & Co"></a>
                                 <p>DimSum & Co</p>
                                 <p>₽ · Японская · Китайская · Азиатская</p>
                                 <p>40 - 50 мин</p>
                             </figure>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-6">
                             <figure class="card">
-                                <a href=""><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27.png"
+                                <a href="pages/restaurant.html"><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27.png"
                                         alt="ДвижОК"></a>
                                 <p>ДвижОК</p>
                                 <p>₽ · Американская · Европейская</p>
                                 <p>35 - 45 мин</p>
                             </figure>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-6">
                             <figure class="card">
-                                <a href=""><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27-2.png"
+                                <a href="pages/restaurant.html"><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27-2.png"
                                         alt="НЯ"></a>
                                 <p>НЯ - NHA</p>
                                 <p>₽₽ · Вьетнамская</p>
                                 <p>30 - 40 мин</p>
                             </figure>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-6">
                             <figure class="card">
-                                <a href=""><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27-3.png"
+                                <a href="pages/restaurant.html"><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27-3.png"
                                         alt="Точка Дзы"></a>
                                 <p>Точка Дзы - Цветной</p>
                                 <p>₽₽ · Вьетнамская</p>
                                 <p>40 - 50 мин</p>
                             </figure>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-6">
                             <figure class="card">
-                                <a href=""><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27-4.png"
+                                <a href="pages/restaurant.html"><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27-4.png"
                                         alt="Cinnabon"></a>
                                 <p>Cinnabon</p>
                                 <p>₽ · Выпечка · Десерты · Капкейки</p>
                                 <p>25 - 35 мин</p>
                             </figure>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-6">
                             <figure class="card">
-                                <a href=""><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27-2.png"
+                                <a href="pages/restaurant.html"><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27-2.png"
                                         alt="PIZZELOVE"></a>
                                 <p>PIZZELOVE</p>
                                 <p>₽₽ · Пицца</p>
                                 <p>15 - 25 мин</p>
                             </figure>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-6">
                             <figure class="card">
-                                <a href=""><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27-3.png"
+                                <a href="pages/restaurant.html"><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27-3.png"
                                         alt="Zю кафе"></a>
                                 <p>Zю кафе - Тверская</p>
                                 <p>₽₽ · Японская</p>
                                 <p>25 - 35 мин</p>
                             </figure>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-6">
                             <figure class="card">
-                                <a href=""><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27-4.png"
+                                <a href="pages/restaurant.html"><img src="Stores/95b745f6ce6a45903c3ed254afd72e46-w550-27-4.png"
                                         alt="Bar BQ Cafe"></a>
                                 <p>Bar BQ Cafe - Манежная</p>
                                 <p>₽₽₽ · Европейская</p>
@@ -140,17 +137,43 @@
                     <img src="Restaurant/white-logo.svg" alt="UberEats">
                 </div>
                 <div class="footer__block">
-                    <div class="footer__col">
-                        <a href="/" class="footer__link">Test</a>
+                    <div class="col-md-4 col-sm-12">
+                        <!-- Блок селектора -->
+                        <div class="footer__selector">
+                            <div class="selector__image"><img src="Restaurant/world.svg" alt=""></div>
+                            <div class="selector__language">
+                                <span>Русский</span>
+                                <img src="Restaurant/if_icon-ios7-arrow-back_211686.svg" class="language-arrow"
+                                    alt="Arrow Back">
+                                <ul class="selector__scroll">
+                                    <li><a href="">Русский</a></li>
+                                    <li><a href="">Английский</a></li>
+                                    <li><a href="">Немецкий</a></li>
+                                    <li><a href="">Китайский</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="footer__more">
+                            <div class="footer__tag">
+                                <a href="/">UberEats</a>
+                            </div>
+                            <div class="footer__social">
+                                <a href=""><img src="Restaurant/ic/24/social/facebook-1.svg" alt="FB"></a>
+                                <a href=""><img src="Restaurant/ic/24/social/twitter-1.svg" alt="Twitter"></a>
+                                <a href=""><img src="Restaurant/ic/24/social/instagram-1.svg" alt="Inst"></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="footer__col">
+                    <div class="col-md-4 col-sm-12">
                         <ul class="footer__items">
                             <li class="footer__item"><a href="/" class="footer__link">Об UberEats</a></li>
-                            <li class="footer__item"><a href="/" class="footer__link">Станьте партнёром по доставке</a></li>
-                            <li class="footer__item"><a href="/" class="footer__link">Станьте партнёром-рестораном</a></li>
+                            <li class="footer__item"><a href="/" class="footer__link">Станьте партнёром по доставке</a>
+                            </li>
+                            <li class="footer__item"><a href="/" class="footer__link">Станьте партнёром-рестораном</a>
+                            </li>
                         </ul>
                     </div>
-                    <div class="footer__col">
+                    <div class="col-md-4 col-sm-12">
                         <ul class="footer__items">
                             <li class="footer__item"><a href="/" class="footer__link">Все города</a></li>
                             <li class="footer__item"><a href="/" class="footer__link">Цены</a></li>
@@ -159,7 +182,28 @@
                         </ul>
                     </div>
                 </div>
+                <div class="footer__apps">
+                    <ul class="apps__list">
+                        <li class="apps__item"><a href="" class="apps__link"><img
+                                    src="Restaurant/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png"
+                                    alt=""></a></li>
+                        <li class="apps__item"><a href="" class="apps__link"><img
+                                    src="Restaurant/en_badge_web_generic-cf6dad406f-1.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="footer__docs">
+                    <ul class="docs__list">
+                        <li class="docs__item"><a href="" class="docs__link">© 2017 Uber Technologies Inc.</a></li>
+                        <li class="docs__item"><a href="" class="docs__link">Обработка персональных данных</a></li>
+                        <li class="docs__item"><a href="" class="docs__link">Пользовательское соглашение</a></li>
+                    </ul>
+                </div>
             </div>
+            <aside class="aside">
+                <div class="aside__scroll">
+                    <a href="#main" class="scroll__link"><img src="Restaurant/arrow-1.svg" alt=""></a>
+                </div>
+            </aside>
         </footer>
     </div>
 </body>
